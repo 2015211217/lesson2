@@ -13,7 +13,7 @@
 		9994D35721269E9C003272F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9994D35621269E9C003272F2 /* Assets.xcassets */; };
 		9994D35A21269E9C003272F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9994D35821269E9C003272F2 /* LaunchScreen.storyboard */; };
 		9994D35D21269E9C003272F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9994D35C21269E9C003272F2 /* main.m */; };
-		9994D3652126A181003272F2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 9994D3642126A181003272F2 /* Student.m */; };
+		9994D3932128427D003272F2 /* SimpleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9994D3922128427D003272F2 /* SimpleSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		9994D35921269E9C003272F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9994D35B21269E9C003272F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9994D35C21269E9C003272F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9994D3632126A181003272F2 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		9994D3642126A181003272F2 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		9994D3912128427D003272F2 /* SimpleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleSort.h; sourceTree = "<group>"; };
+		9994D3922128427D003272F2 /* SimpleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				9994D35821269E9C003272F2 /* LaunchScreen.storyboard */,
 				9994D35B21269E9C003272F2 /* Info.plist */,
 				9994D35C21269E9C003272F2 /* main.m */,
-				9994D3632126A181003272F2 /* Student.h */,
-				9994D3642126A181003272F2 /* Student.m */,
+				9994D3912128427D003272F2 /* SimpleSort.h */,
+				9994D3922128427D003272F2 /* SimpleSort.m */,
 			);
 			path = lesson2;
 			sourceTree = "<group>";
@@ -147,9 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9994D35221269E9B003272F2 /* ViewController.m in Sources */,
+				9994D3932128427D003272F2 /* SimpleSort.m in Sources */,
 				9994D35D21269E9C003272F2 /* main.m in Sources */,
 				9994D34F21269E9B003272F2 /* AppDelegate.m in Sources */,
-				9994D3652126A181003272F2 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
