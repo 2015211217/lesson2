@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+<<<<<<< HEAD
 #import "SimpleInsert.h"
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -18,5 +19,17 @@ int main(int argc, char * argv[]) {
         // 这里因为不区分实例，所以可以使用类方法 
         NSMutableArray *array = [NSMutableArray arrayWithObjects:@"34",@"22",@"1",@"675",@"2",@"33",@"12",@"34",@"66",@"222", nil];
         [SimpleInsert bubbleSort:array];
+=======
+#import "mergeSort.h"
+int main(int argc, char * argv[]) {
+    @autoreleasepool {
+        int a[10]={34,123,2,33,1,67,33,123,2,88};
+        mergeSort *merge = [[mergeSort alloc] init];
+        
+        int *result=[merge mergeSort:a andStart:0 andEnd:9];
+        
+        [merge printResult:result];
+      //  return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+>>>>>>> merge
     }
 }

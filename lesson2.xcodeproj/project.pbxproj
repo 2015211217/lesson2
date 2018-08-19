@@ -13,7 +13,11 @@
 		9994D35721269E9C003272F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9994D35621269E9C003272F2 /* Assets.xcassets */; };
 		9994D35A21269E9C003272F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9994D35821269E9C003272F2 /* LaunchScreen.storyboard */; };
 		9994D35D21269E9C003272F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9994D35C21269E9C003272F2 /* main.m */; };
+<<<<<<< HEAD
 		9994D36E2126D391003272F2 /* SimpleInsert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9994D36D2126D391003272F2 /* SimpleInsert.m */; };
+=======
+		9994D39621284DBC003272F2 /* mergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9994D39521284DBC003272F2 /* mergeSort.m */; };
+>>>>>>> merge
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +31,13 @@
 		9994D35921269E9C003272F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9994D35B21269E9C003272F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9994D35C21269E9C003272F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		9994D36C2126D391003272F2 /* SimpleInsert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleInsert.h; sourceTree = "<group>"; };
 		9994D36D2126D391003272F2 /* SimpleInsert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleInsert.m; sourceTree = "<group>"; };
+=======
+		9994D39421284DBC003272F2 /* mergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSort.h; sourceTree = "<group>"; };
+		9994D39521284DBC003272F2 /* mergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mergeSort.m; sourceTree = "<group>"; };
+>>>>>>> merge
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +79,13 @@
 				9994D35821269E9C003272F2 /* LaunchScreen.storyboard */,
 				9994D35B21269E9C003272F2 /* Info.plist */,
 				9994D35C21269E9C003272F2 /* main.m */,
+<<<<<<< HEAD
 				9994D36C2126D391003272F2 /* SimpleInsert.h */,
 				9994D36D2126D391003272F2 /* SimpleInsert.m */,
+=======
+				9994D39421284DBC003272F2 /* mergeSort.h */,
+				9994D39521284DBC003272F2 /* mergeSort.m */,
+>>>>>>> merge
 			);
 			path = lesson2;
 			sourceTree = "<group>";
@@ -150,6 +164,10 @@
 				9994D36E2126D391003272F2 /* SimpleInsert.m in Sources */,
 				9994D35D21269E9C003272F2 /* main.m in Sources */,
 				9994D34F21269E9B003272F2 /* AppDelegate.m in Sources */,
+<<<<<<< HEAD
+=======
+				9994D39621284DBC003272F2 /* mergeSort.m in Sources */,
+>>>>>>> merge
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
